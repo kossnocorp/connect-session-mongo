@@ -3,8 +3,12 @@
   "version": "0.0.5",
   "description": "MongoDB Session Store for Connect Middleware",
   "author": "Bart Teeuwisse <bart@thecodemill.biz>",
-  "contributors": ["Dav Glass <davglass@gmail.com>", "Tyler Johnson <tejohnso@rogers.com>"],
-  "bugs": { "web" : "http://github.com/bartt/connect-session-mongo/issues" },
+  "contributors": [
+    "Dav Glass <davglass@gmail.com>",
+    "Tyler Johnson <tejohnso@rogers.com>",
+    "Brandon Ramirez <brandon.s.ramirez@gmail.com>"
+  ],
+  "bugs": { "web" : "https://github.com/brandonramirez/connect-session-mongo/issues" },
   "os": ["darwin", "linux"],
   "engines": {
     "node" : ">=0.2.0"
@@ -20,11 +24,11 @@
   "licenses":[
     {
       "type" : "BSD",
-      "url" : "http://github.com/bartt/connect-session-mongo/blob/master/LICENSE"
+      "url" : "https://github.com/brandonramirez/connect-session-mongo/blob/master/LICENSE"
     }
   ],
   "repository": {
     "type":"git",
-    "url":"http://github.com/bartt/connect-session-mongo.git"
+    "url":"https://github.com/brandonramirez/connect-session-mongo.git"
   }
 }
