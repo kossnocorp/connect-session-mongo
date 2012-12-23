@@ -1,6 +1,6 @@
 {
   "name": "connect-session-mongo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "MongoDB Session Store for Connect Middleware",
   "author": "Bart Teeuwisse <bart@thecodemill.biz>",
   "contributors": [
@@ -18,7 +18,7 @@
   },
   "main": "./lib/connect-session-mongo",
   "dependencies": {
-    "connect": ">=0.2.4",
+    "connect": ">=2.0.0",
     "mongodb": ">=0.8.0"
   },
   "licenses":[
