@@ -30,6 +30,7 @@ You can also pass several options to the constructor to tweak your session store
 * collection - The collection to save its data to, defaults to: `sessions`
 * server - A custom mongo Server instance (this overides db, ip &amp; port)
 * url - A url to use for Db.connect style database connections (this overrides db, ip, port &amp; server)
+* timeout - Number of seconds before an idle session is removed (optional)
 
 An optional callback function(err, connectedDb) can also be passed to the constructor after the options.
 
