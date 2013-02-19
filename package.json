@@ -17,8 +17,10 @@
     "lib" : "lib"
   },
   "main": "./lib/connect-session-mongo",
+  "peerDependencies": {
+    "connect": ">=2.0.0"
+  },
   "dependencies": {
-    "connect": ">=2.0.0",
     "mongodb": ">=0.8.0"
   },
   "licenses":[
