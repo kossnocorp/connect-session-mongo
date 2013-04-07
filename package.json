@@ -9,7 +9,7 @@
     "Brandon Ramirez <brandon.s.ramirez@gmail.com>"
   ],
   "bugs": { "web" : "https://github.com/brandonramirez/connect-session-mongo/issues" },
-  "os": ["darwin", "linux"],
+  "os": ["darwin", "linux", "sunos"],
   "engines": {
     "node" : ">=0.2.0"
   },
