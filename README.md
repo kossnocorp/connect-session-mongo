@@ -31,6 +31,8 @@ You can also pass several options to the constructor to tweak your session store
 * server - A custom mongo Server instance (this overides db, ip &amp; port)
 * url - A url to use for Db.connect style database connections (this overrides db, ip, port &amp; server)
 * timeout - Number of seconds before an idle session is removed (optional)
+* username - Username to authenticate to the database server as (optional)
+* password - Password for the given user to authenticate to the database server (optional)
 
 An optional callback function(err, connectedDb) can also be passed to the constructor after the options.
 
